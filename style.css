@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;500&family=Roboto:wght@100;300;400;700&display=swap');
+
+:root{
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+section{
+    padding: 0px 200px;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    height: 75px;
+    z-index: 1000;
+    top: 0;
+    border: 1px solid black;
+    background-color: rgb(255, 192, 23);
+    max-width: 100%;
+    
+}
+
+
+.header div{
+    width: 1320px;
+}
+
+.header div img{
+    margin-top: 00px;
+    vertical-align: middle;
+}
+
+#navbar{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1710px;
+    margin-left: 600px;
+    margin-top: 13px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+
+#navbar li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+
+.header #navbar a{
+    color: black;
+    margin: 0 20px 0px 0px;
+}
+
+.header #navbar .btn{
+    width: 104px;
+    height: 38px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.header #navbar .btn a{
+    width: 105px;
+    height: 18px;
+    margin: 0px;
+    color: white;
+    
+}
+
+#home{
+    background-color: rgb(255, 192, 23);
+    width: 100%;
+    margin: 0;
+    height: 455px;
+    border: 1px solid black;
+
+}
+
+
+#home .text h1{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 400;
+    font-size: 106px;
+    padding: 73px 0 30px 0;
+    text-transform: initial;
+}
+
+#home .text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 455px;
+    font-size: 24px;
+    text-transform: initial;
+    margin-bottom: 50px;
+}
+
+#home #btn{
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+#home #btn a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+#trends{
+    border: 1px solid black;
+}
+
+#trends .content .trend{
+    display: inline-block;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 1310px;
+    padding: 40px 0px;
+}
+
+
+#trends .content p{
+    margin: 0px;
+    width: 150px;
+    
+}
+
+#trends .content .topic{
+    display:inline-block;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 408px;
+    height: 122px;
+    margin: 20px 0px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+#trends .content #first-column{
+    width: 320px;
+}
+
+#trends .content #second-column{
+    width: 400px;
+    margin-left: 30px;
+}
+
+#trends .content #third-column{
+    margin-left: 70px;
+}
+
+#trends .content .topic .user{
+    display: flex;
+    position: relative;
+    justify-content:flex-start;
+}
+
+
+#trends .content .topic .user h1{
+    font-size: 40px;
+    color:gray;
+    opacity: 0.3;
+}
+
+#trends .content .topic .user img{
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+
+#trends .content .topic .user p{
+    font-size: 12px;
+    padding-top: 19px;
+}
+
+#trends .content .topic .title h2{
+    font-size: 14px;
+    margin-left: 55px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#trends .content .topic .date p{
+    margin-left: 55px;
+    font-size: 10px;
+}
+
+#blog{
+    margin-top: 70px;
+}
+
+
+#blog .topics{
+    width: 695px;
+    height: 182px;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    vertical-align: middle;
+
+}
+
+#blog .topics .content{
+    width: 475px;
+    height: 130px;
+}
+
+#blog .topics .content span{
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 8px;
+    background-color: rgb(204, 201, 201);
+    color: rgb(105, 105, 105);
+    font-size: 10px;
+    padding: 3px 7px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#blog .topics .content h2{
+    font-size: 13px;
+}
+
+#blog .topics .content h1{
+    font-size: 18px;
+}
+
+#blog .topics .content i{
+    cursor: pointer;
+    justify-content: space-between;
+    
+    width: 20px;
+}
+
+
+
+
+
